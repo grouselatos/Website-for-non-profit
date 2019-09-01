@@ -1,0 +1,155 @@
+/* CSS Document */
+body{
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+}
+
+.my-primary-bg{
+  background: -webkit-linear-gradient(to right, #16222a, #3a6073); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #16222a, #3a6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.navbar-brand{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+
+}
+
+.navbar-brand>img{
+	height: 90px;
+    margin: 0;
+}
+
+.navbar-nav{
+	margin-left: 150px;
+}
+
+.nav-item{
+	padding:0;
+	margin: auto 25px;
+}
+
+.nav-text{
+	color:azure;
+	font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-text:hover{
+	text-decoration: underline;
+	text-decoration-color: azure;
+	cursor:pointer;
+}
+
+.active{
+	text-decoration: underline;
+	text-decoration-color: azure;
+}
+
+.carousel-inner>.carousel-item>img, .carousel-inner>.carousel-item>a>img {
+display: block;
+height: auto;
+max-width: 100%;
+max-height: 50%;
+line-height: 1;
+width: 100%;
+}
+
+#h1, #h2, #h3, #h4, #h5, #h6 {
+font-family: 'Varela', sans-serif;
+}
+
+#p {
+font-family: 'Karla', sans-serif;
+}
+
+.index-jumbotron {
+	background-color: azure;
+	text-align: center;
+}
+
+.events-jumbotron {
+	background-color:azure;
+	color:cornflowerblue
+}
+
+.events-jumbotron .lead {
+	text-decoration: underline;
+	font-size: 40px;
+}
+
+.zone-header{
+	text-decoration: underline;
+	color: cadetblue;
+}
+
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: azure;
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footer-text{
+	color:azure;
+}
+
+.footer-text:hover{
+	color:cadetblue;
+	cursor:pointer;
+}
+
+.footer-container{
+	text-align: center;
+}
+
+.footer-first{
+	display: inline-block;
+}
+
+.footer-second{
+	display: inline-block;
+}
+
+.footer-third{	
+	display: inline-block;
+}
+
+.divider{
+	background-color: white;
+	margin: 0;
+	width: 100%;
+}
+
+.divider>h1{
+	color: rgba(0,0,0,0.00);
+}
+
+.events-row, .donations-row, .contact-row{
+	margin: 0 10px;
+}
+
+.donations {
+	text-decoration: underline;
+	font-size: 20px;
+	color: cadetblue;
+}
+
+#contact-header {
+	text-align: center;
+}
+
+
+
+
+
+
+
